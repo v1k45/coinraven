@@ -3,7 +3,7 @@
 
 **This tool is still in development and currently not intended to be used for production!**
 
-Coinraven is a simple wrapper over richard kiss' [Pycoin](https://github.com/richardkiss/pycoin/). It makes sending and receving bitcoins easily without having by providing a easy and flexible interface.
+Coinraven is a simple wrapper over richard kiss' [Pycoin](https://github.com/richardkiss/pycoin/). It makes sending and receving bitcoins easily by providing a easy and flexible interface.
 
 
 ## How to use?

@@ -62,7 +62,6 @@ class InsightAPI(NetworkAPI):
         URL = "%s/tx/send" % self.base_url
         r = requests.post(URL, data={"rawtx": tx_as_hex})
         r.raise_for_status()
-        print(r.text)
         return r.text
 
     @staticmethod

@@ -39,11 +39,12 @@ Coinraven is a simple wrapper over richard kiss' [Pycoin](https://github.com/ric
 ```pycon
 >>> from coinraven.tx import Payable
 >>> payables = [Payable("mrf6qj7huouMtg3t5SUJkWnGHJ2XjfgwtW", 4 * 1e7),]
->>> payables
-[Payable(address='mrf6qj7huouMtg3t5SUJkWnGHJ2XjfgwtW', value=40000000.0)]
+>>>
 >>> bitcoin.send(payables, 2000000)
 '{"txid":"8049f018e70b80a4b8cf261b8117bffda6973c2e067e479b607e7c924f447b79"}'
 >>>
 ```
+
+The above code sends 0.4 bitcoins to `mrf6qj7huouMtg3t5SUJkWnGHJ2XjfgwtW` with `0.02` bitcoins as fee and returns the leftover bitcoins to the sender address (`bitcoin.address`) if `change_address` is not passed. All values are in satoshis.
 
 You can see the transaction [here](https://test-insight.bitpay.com/tx/8049f018e70b80a4b8cf261b8117bffda6973c2e067e479b607e7c924f447b79).

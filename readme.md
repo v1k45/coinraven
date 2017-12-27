@@ -1,9 +1,9 @@
-# coinraven - wrapper to send and service cyptocurrencies easily
+# coinraven - wrapper to work with cyptocurrencies easily
 
 
 **This tool is still in development and currently not intended to be used for production!**
 
-Coinraven is a simple wrapper over richard kiss' [Pycoin](https://github.com/richardkiss/pycoin/). It makes sending and receving bitcoins easily by providing a easy and flexible interface.
+Coinraven is a simple wrapper over richard kiss' [Pycoin](https://github.com/richardkiss/pycoin/). It makes sending cryptocurrencies easily by providing a easy and flexible interface.
 
 
 ## How to use?

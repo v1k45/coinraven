@@ -1,0 +1,2 @@
+class NetworkAPIError(Exception):
+    pass
